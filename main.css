@@ -20,18 +20,17 @@ body{
 .header-bar{
     display: flex;
     flex-direction: row-reverse;
+    position: relative;
     padding: 0px;
-    height: 50px;
+    height: 100px;
     background-color: lightblue;
-    
 }
 
 .navigation{
+    position: relative;
     color: black;
-    height: 50px;
-    padding: 25px;
+    background: white;
     text-decoration: none;
-    
 }
 
 .navigation:hover{
