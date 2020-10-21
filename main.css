@@ -3,8 +3,39 @@
 
 *{
     box-sizing: border-box;
-    padding: 5px;
-    background-color: #00a5ff;
+    padding: 0px;
+    /*background-color: #0079bb;*/
+    color: rgb(134, 197, 255);
+}
+
+body{
+    background-color: #0079bb;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-bar{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0px;
+    height: 50px;
+    background-color: lightblue;
+    
+}
+
+.navigation{
+    color: black;
+    height: 50px;
+    padding: 25px;
+    text-decoration: none;
+    
+}
+
+.navigation:hover{
+    color: whitesmoke;
 }
 
 .centred{
@@ -33,5 +64,5 @@
 }
 
 h1{
-    size: 75%
+    size: 75%;
 }
