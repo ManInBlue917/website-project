@@ -20,21 +20,30 @@ body{
 .header-bar{
     display: flex;
     flex-direction: row-reverse;
-    position: relative;
+    position: absolute;
+    top: 0px;
+    left: 0px;
     padding: 0px;
     height: 100px;
+    width: 100%;
     background-color: lightblue;
 }
 
 .navigation{
-    position: relative;
+    float: left;
     color: black;
-    background: white;
     text-decoration: none;
+    height: 100px;
+    padding: 20px;
+}
+
+@keyframes navigation_hover{
+    0% {height: 100px;}
 }
 
 .navigation:hover{
     color: whitesmoke;
+    background: rgb(0, 146, 190);
 }
 
 .centred{
@@ -54,8 +63,17 @@ body{
     size: 25px;
 }
 
+.icon{
+    width: 50px;
+}
+
 .heading{
     font-family: 'Francois One', monospace;
+    padding: 20px;
+}
+
+.text-box{
+    width: 500px;
 }
 
 .general-text{
@@ -63,5 +81,5 @@ body{
 }
 
 h1{
-    size: 75%;
+    font-size: 100px;
 }
